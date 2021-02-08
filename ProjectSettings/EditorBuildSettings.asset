@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Stage 1.unity
-    guid: 5e1a228d79ed7e64ea415efdeedd8245
+    path: Assets/Scenes/Main Menu.unity
+    guid: a9acf05ce2a8ca940918bc4fc0bd3187
   - enabled: 1
     path: Assets/Scenes/Game/1 - Bosco sogno.unity
     guid: 6c8c175f63e833d468c65d3050cb60c1
@@ -29,7 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/6 - Villaggio.unity
     guid: a96ccb9f9df701246bd5ff8d2ba0be65
-  - enabled: 0
-    path: Assets/Scenes/Game/Bosco sogno backup.unity
-    guid: 064fe0e2e1d89904b8b1000af903addd
   m_configObjects: {}
