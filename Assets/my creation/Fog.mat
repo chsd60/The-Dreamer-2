@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fog
+  m_Shader: {fileID: -6465566751694194690, guid: 97d7d67130b9412479a91543e533b05b,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e91ff8f1586ab934d9a16b2a77da2667, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintex:
+        m_Texture: {fileID: 2800000, guid: 45c34bcb5332c7240aa36e07524ffabb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FofSize: 26.13
+    - _FogSize: 6.37
+    - _FogSize2: 0.2
+    m_Colors:
+    - Color_69CB02AF: {r: 3.122605, g: 0.2816467, b: 2.081737, a: 1}
+    - Color_6A0A73B2: {r: 4.237095, g: 0.9760846, b: 3.993074, a: 1}
+    - Color_D5E9F65A: {r: 1, g: 0.4575472, b: 0.84178466, a: 1}
+    - _Color2: {r: 1.706432, g: 0.9919159, b: 1.429031, a: 1}
+    - _FogSize2: {r: 3, g: 0, b: 0, a: 0}
+    - _FogSpeed: {r: 2.13, g: 0, b: 0, a: 0}
+    - _FogSpeed2: {r: 2, g: 0, b: 0, a: 0}
