@@ -21,7 +21,7 @@ public class SceneLoader : MonoBehaviour {
     void OnTriggerStay2D(Collider2D other) {
         if (other.CompareTag("Player")) {
             if (Input.GetButtonDown("Down")) {
-                SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+                LoadNextScene();
             }
         
         }
@@ -33,6 +33,14 @@ public class SceneLoader : MonoBehaviour {
             activeCheck = false;
             Debug.Log("Exit");
         }
+    }
+
+    public void LoadNextScene() {
+        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+    }
+
+    public void QuitGame() {
+        Application.Quit();
     }
 }
 
