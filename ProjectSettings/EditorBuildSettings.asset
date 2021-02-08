@@ -11,4 +11,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage 1.unity
     guid: 5e1a228d79ed7e64ea415efdeedd8245
+  - enabled: 1
+    path: Assets/Scenes/Game/1 - Bosco sogno.unity
+    guid: 6c8c175f63e833d468c65d3050cb60c1
+  - enabled: 1
+    path: Assets/Scenes/Game/2 - Villaggio Amboulban.unity
+    guid: 8fd8daaf9bac4f640b9e2fd6b2bcdede
+  - enabled: 1
+    path: Assets/Scenes/Game/3 - Renamore.unity
+    guid: bf92eb58325a0064b8c0791bfa9a3758
+  - enabled: 1
+    path: Assets/Scenes/Game/4 - Radura.unity
+    guid: e668f5890e2badf4b93d2149b11cdce3
+  - enabled: 1
+    path: Assets/Scenes/Game/5 - Tenebris Silvam.unity
+    guid: 784027d0fe4287d4384c8481eebd274c
+  - enabled: 1
+    path: Assets/Scenes/Game/6 - Villaggio.unity
+    guid: a96ccb9f9df701246bd5ff8d2ba0be65
+  - enabled: 0
+    path: Assets/Scenes/Game/Bosco sogno backup.unity
+    guid: 064fe0e2e1d89904b8b1000af903addd
   m_configObjects: {}
