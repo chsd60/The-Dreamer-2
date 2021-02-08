@@ -44,11 +44,11 @@ Material:
     - PixelSnap: 0
     - Vector1_439A7E60: 0.31
     - Vector1_47D4A81E: 0.53
-    - Vector1_C5DCB9D9: 1.49
+    - Vector1_C5DCB9D9: 1.55
     - _EnableExternalAlpha: 0
-    - _WindSp: 0.45
+    - _WindSp: 0.3
     m_Colors:
-    - Vector2_C9DC4294: {r: 0.89, g: 1.11, b: 0.78, a: 0}
+    - Vector2_C9DC4294: {r: 2.3, g: 0.95, b: 0.78, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
