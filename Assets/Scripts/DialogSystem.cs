@@ -22,10 +22,12 @@ public class DialogSystem : MonoBehaviour
     [HideInInspector] public bool typingInProgress = false;
 
     private void OnTriggerEnter2D(Collider2D other) {
+        if (!other.CompareTag("Player")) return;
         hasEntered = true;
     }
 
     private void OnTriggerExit2D(Collider2D other) {
+        if (!other.CompareTag("Player")) return;
         hasEntered = false;
         //Finisce forzatamente il dialogo se il personaggio esce dal trigger
         if (dialogueInProgress == true) {

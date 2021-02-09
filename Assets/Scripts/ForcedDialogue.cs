@@ -10,11 +10,13 @@ public class ForcedDialogue : MonoBehaviour {
   
 
     private void OnTriggerEnter2D(Collider2D other) {
+        if (!other.CompareTag("Player")) return;
         hasEntered = true;
         playerGameObject = other.gameObject;
     }
 
     private void OnTriggerExit2D(Collider2D other) {
+        if (!other.CompareTag("Player")) return;
         hasEntered = false;
     }
     private void Update() {
