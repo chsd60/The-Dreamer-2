@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7813352544444046935}
   - component: {fileID: 7813352544444046930}
   - component: {fileID: 7813352544444046925}
+  - component: {fileID: 22708404952246719}
   m_Layer: 0
   m_Name: Morfeo
   m_TagString: Player
@@ -187,6 +188,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 7813352544444046934}
   runSpeed: 50
+  horizontalMove: 0
+--- !u!81 &22708404952246719
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7813352544444046932}
+  m_Enabled: 1
 --- !u!1 &7813352545857620864
 GameObject:
   m_ObjectHideFlags: 0
