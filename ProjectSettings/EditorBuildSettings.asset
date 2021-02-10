@@ -15,6 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/1 - Bosco sogno.unity
     guid: 6c8c175f63e833d468c65d3050cb60c1
   - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Game/3 - Renamore.unity
     guid: bf92eb58325a0064b8c0791bfa9a3758
@@ -25,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/5 - Tenebris Silvam.unity
     guid: 784027d0fe4287d4384c8481eebd274c
   - enabled: 1
-    path: Assets/Scenes/Game/6 - Villaggio 2.unity
+    path: Assets/Scenes/Game/villaggio back up.unity
     guid: 8fd8daaf9bac4f640b9e2fd6b2bcdede
   - enabled: 0
     path: 
