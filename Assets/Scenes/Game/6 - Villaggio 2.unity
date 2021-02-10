@@ -930,6 +930,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1853290741}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &547029022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547029019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082e681fe513b9547b1c63c4a7cad59b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: 8
+  downArrow: {fileID: 0}
 --- !u!82 &547029023
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3459,12 +3473,6 @@ PrefabInstance:
         type: 3}
       propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1905329741}
-    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
-        type: 3}
-      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1905329739}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
