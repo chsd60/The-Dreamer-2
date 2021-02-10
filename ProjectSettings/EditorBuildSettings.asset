@@ -15,8 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/1 - Bosco sogno.unity
     guid: 6c8c175f63e833d468c65d3050cb60c1
   - enabled: 1
-    path: Assets/Scenes/Game/2 - Villaggio Amboulban 1.unity
-    guid: 3fb4729c9ec3bc64fbff2d997c045961
   - enabled: 1
     path: Assets/Scenes/Game/3 - Renamore.unity
     guid: bf92eb58325a0064b8c0791bfa9a3758
