@@ -7,6 +7,7 @@ public class ForcedDialogue : MonoBehaviour {
     public bool hasEntered = false;
     public bool hasEnded = false;
     private GameObject playerGameObject;
+
   
 
     private void OnTriggerEnter2D(Collider2D other) {
