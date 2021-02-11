@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 700
-  m_MovementSmoothing: 0.05
+  m_MovementSmoothing: 0.3
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2

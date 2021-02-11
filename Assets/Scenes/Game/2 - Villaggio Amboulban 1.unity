@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -416,9 +416,44 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 139049911}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 1869264253}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
       propertyPath: sentences.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[0]
@@ -944,7 +979,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9221773, y: 3.3400002, z: -10}
+  m_LocalPosition: {x: -3.9533324, y: 3.3400002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1321,9 +1356,44 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 139049911}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 1869264253}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
       propertyPath: sentences.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[0]
@@ -1604,14 +1674,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
       propertyPath: typingSpeed
-      value: 0
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 139049911}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 1869264253}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[0]
@@ -2585,6 +2680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scene Loader (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723480344340166690, guid: 6b54dec68c54c7848826953337a77ece,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7723480344340166691, guid: 6b54dec68c54c7848826953337a77ece,
         type: 3}
@@ -3763,9 +3863,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 139049911}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: textBackground
+      value: 
+      objectReference: {fileID: 1869264253}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
       propertyPath: sentences.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: voices.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[0]
@@ -4249,7 +4379,7 @@ PrefabInstance:
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9221773
+      value: -3.9533324
       objectReference: {fileID: 0}
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
