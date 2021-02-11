@@ -30,7 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _FofSize: 26.13
-    - _FogSize: 4.39
+    - _FogSize: 70.63
     - _FogSize2: 0.2
     m_Colors:
     - Color_69CB02AF: {r: 3.122605, g: 0.2816467, b: 2.081737, a: 1}
@@ -38,5 +38,5 @@ Material:
     - Color_D5E9F65A: {r: 1, g: 0.4575472, b: 0.84178466, a: 1}
     - _Color2: {r: 1.706432, g: 0.9919159, b: 1.429031, a: 1}
     - _FogSize2: {r: 3, g: 0, b: 0, a: 0}
-    - _FogSpeed: {r: 0.02, g: 0, b: 0.48, a: 0}
-    - _FogSpeed2: {r: 2, g: 0, b: 0, a: 0}
+    - _FogSpeed: {r: 0.38, g: 0, b: 0.48, a: 0}
+    - _FogSpeed2: {r: 2.6, g: 0, b: 0, a: 0}
