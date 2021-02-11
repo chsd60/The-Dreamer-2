@@ -2786,6 +2786,11 @@ PrefabInstance:
       objectReference: {fileID: 937272384}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 139049911}
@@ -2818,6 +2823,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fontana
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954798696593274599, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.290615
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954798696593274599, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.70162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954798696593274599, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.17220497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954798696593274599, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.97394276
       objectReference: {fileID: 0}
     - target: {fileID: 7692139222050331462, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
@@ -3256,6 +3281,11 @@ PrefabInstance:
       propertyPath: textDisplay
       value: 
       objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: continueButton
@@ -3839,7 +3869,7 @@ PrefabInstance:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: typingSpeed
-      value: 0.1
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
@@ -3952,6 +3982,36 @@ PrefabInstance:
         type: 3}
       propertyPath: sentences.Array.data[8]
       value: "Papa Gh\xE9d\xE9: Oh! Dimenticavo mi puoi chiamare Papa Gh\xE9d\xE9."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 802614876}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DialogEnding
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: endedDialogueAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4470865017649177391, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
@@ -4210,6 +4270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tina
       objectReference: {fileID: 0}
+    - target: {fileID: 7817251509526584627, guid: f872f64b061ee444ba003b488839dfb0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7817251509526584639, guid: f872f64b061ee444ba003b488839dfb0,
         type: 3}
       propertyPath: m_RootOrder
@@ -4321,6 +4386,11 @@ PrefabInstance:
       propertyPath: textDisplay
       value: 
       objectReference: {fileID: 937272384}
+    - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
+        type: 3}
+      propertyPath: typingSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: continueButton
