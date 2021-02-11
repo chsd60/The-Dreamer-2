@@ -16,6 +16,7 @@ public class DialogSystem : MonoBehaviour
     public UnityEvent endedDialogueAction;
     public GameObject continueButton;
     public GameObject textBackground;
+    public GameObject downArrow;
 
     [HideInInspector] public bool hasEntered = false;
     [HideInInspector] public bool dialogueInProgress = false;
@@ -43,6 +44,10 @@ public class DialogSystem : MonoBehaviour
         if (Input.GetButtonDown("Down") && dialogueInProgress == true && typingInProgress == false) {
             Invoke(nameof(NextSentence), 0.1f);
             Debug.Log("NextSentence");
+        }
+
+        if (dialogueInProgress == true) {
+            downArrow.SetActive(false);
         }
 
     }
