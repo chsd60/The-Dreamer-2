@@ -12759,7 +12759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.052177, y: -7.42, z: -15}
+  m_LocalPosition: {x: -19.083332, y: -7.42, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20444,7 +20444,7 @@ PrefabInstance:
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.052177
+      value: -19.083332
       objectReference: {fileID: 0}
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
@@ -30853,7 +30853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082e681fe513b9547b1c63c4a7cad59b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 1
+  sceneToLoad: 4
   downArrow: {fileID: 7723480344172590373}
 --- !u!212 &7723480344923831631
 SpriteRenderer:
