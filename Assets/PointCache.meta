@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/PointCache.meta
 guid: f500e4334def1e542bce38c7a1d34761
+=======
+guid: 868c3e043f0bf034e8ec64a765e1c6c4
+>>>>>>> pr/55:Assets/Materials/Ludiq/Bolt.Core/Generated/Variables.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
