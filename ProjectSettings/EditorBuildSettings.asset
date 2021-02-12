@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: a9acf05ce2a8ca940918bc4fc0bd3187
@@ -15,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/1 - Bosco sogno.unity
     guid: 6c8c175f63e833d468c65d3050cb60c1
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Game/2 - Villaggio Amboulban 1.unity
+    guid: 3fb4729c9ec3bc64fbff2d997c045961
   - enabled: 1
     path: Assets/Scenes/Game/3 - Renamore.unity
     guid: bf92eb58325a0064b8c0791bfa9a3758
@@ -27,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/5 - Tenebris Silvam.unity
     guid: 784027d0fe4287d4384c8481eebd274c
   - enabled: 1
-    path: Assets/Scenes/Game/villaggio back up.unity
-    guid: 8fd8daaf9bac4f640b9e2fd6b2bcdede
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Game/6 - Villaggio Amboulban ritorno.unity
+    guid: 57cd57766ce02904abb5af03471edc91
   m_configObjects: {}

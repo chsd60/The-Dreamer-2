@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour {
 
     bool jump = false;
 
+    public GameObject sprite;
+    public GameObject VFX;
+
     void Update() {
 
        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -25,5 +28,11 @@ public class PlayerMovement : MonoBehaviour {
 
         controller.Move(horizontalMove * Time.fixedDeltaTime, jump);
         jump = false;
+    }
+
+    public void Death() {
+        sprite.SetActive(false);
+        VFX.SetActive(true);
+        controller.dead = true;
     }
 }
