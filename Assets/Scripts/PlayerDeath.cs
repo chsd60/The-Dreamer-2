@@ -25,8 +25,8 @@ public class PlayerDeath : MonoBehaviour {
     // Probabilmente andrà cambiato.
     IEnumerator DeadPlayer() {
         if (isDead == true) {
-            GameObject.Find("Player").SetActive(false);
-            yield return new WaitForSeconds(2);
+            GameObject.Find("Player").GetComponent<PlayerMovement>().Death();
+            yield return new WaitForSeconds(2.5f);
             SceneManager.LoadScene(currentScene);
         }
     }
