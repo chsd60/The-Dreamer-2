@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7484463581174666812}
   - component: {fileID: 7484463581174666815}
   m_Layer: 0
-  m_Name: 'Colonna Apparente '
+  m_Name: Colonna Sparente
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
