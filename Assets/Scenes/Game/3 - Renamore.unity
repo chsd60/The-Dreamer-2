@@ -5794,7 +5794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139361180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -110.89372, y: -19, z: -25.057846}
+  m_LocalPosition: {x: -110.89372, y: -19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1309908957}
@@ -12764,7 +12764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.241673, y: -7.42, z: -15}
+  m_LocalPosition: {x: -19.38226, y: -7.42, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16961,8 +16961,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colonna Sparente (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a, type: 3}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 9d3e5499e7cce534099ebc2cba75db6e, type: 2}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 14.42
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6a375c03dfba474a975e6673b5c733a, type: 3}
 --- !u!4 &1309908957 stripped
 Transform:
@@ -19410,8 +19439,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colonna Sparente (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a, type: 3}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 9d3e5499e7cce534099ebc2cba75db6e, type: 2}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484463581174666815, guid: c6a375c03dfba474a975e6673b5c733a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 14.42
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6a375c03dfba474a975e6673b5c733a, type: 3}
 --- !u!4 &1765474730 stripped
 Transform:
@@ -20754,7 +20812,7 @@ PrefabInstance:
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.241673
+      value: -19.38226
       objectReference: {fileID: 0}
     - target: {fileID: 197067993206546016, guid: 89ece938da200fd4a99a10da1ec14229,
         type: 3}
