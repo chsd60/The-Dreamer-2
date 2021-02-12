@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -274,7 +274,7 @@ PrefabInstance:
     - target: {fileID: 7692139222050331462, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7692139222050331462, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
@@ -1211,7 +1211,7 @@ PrefabInstance:
     - target: {fileID: 5122156643310939578, guid: 71c97e760add6c448a4983ec2dfcf5eb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4041951
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 5122156643310939578, guid: 71c97e760add6c448a4983ec2dfcf5eb,
         type: 3}
@@ -1253,6 +1253,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 29.001068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 15.3592005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.12258339
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.17886782
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 31.780802
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939579, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 22.019999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5122156643310939581, guid: 71c97e760add6c448a4983ec2dfcf5eb,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f32bbf8a63b82884bb5605fe456b4fe3,
+        type: 3}
     - target: {fileID: 5122156643310939583, guid: 71c97e760add6c448a4983ec2dfcf5eb,
         type: 3}
       propertyPath: m_Name
