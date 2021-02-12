@@ -66,7 +66,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 197067993487856998}
+  m_ComponentOwner: {fileID: 0}
 --- !u!1 &197067993487856999
 GameObject:
   m_ObjectHideFlags: 0
