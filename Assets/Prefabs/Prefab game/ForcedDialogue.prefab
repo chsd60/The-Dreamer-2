@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 0}
-  typingSpeed: 0
+  typingSpeed: 0.01
   source: {fileID: 9033203025573608452}
   sentences:
   - text
@@ -71,6 +71,7 @@ MonoBehaviour:
         m_CallState: 2
   continueButton: {fileID: 0}
   textBackground: {fileID: 0}
+  downArrow: {fileID: 0}
   hasEntered: 0
   dialogueInProgress: 0
   typingInProgress: 0
