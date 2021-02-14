@@ -140,6 +140,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_GroundCheck: {fileID: 7813352545947360488}
+  dead: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -221,6 +222,8 @@ MonoBehaviour:
   controller: {fileID: 7813352544444046934}
   runSpeed: 50
   horizontalMove: 0
+  sprite: {fileID: 5081144645850574437}
+  VFX: {fileID: 4642369993452460730}
 --- !u!81 &22708404952246719
 AudioListener:
   m_ObjectHideFlags: 0
@@ -373,6 +376,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bae2cb94a7c1175419639b4f21df14d4, type: 3}
+--- !u!1 &4642369993452460730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4642369993205273976, guid: bae2cb94a7c1175419639b4f21df14d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061441474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4642369993452460725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4642369993205273975, guid: bae2cb94a7c1175419639b4f21df14d4,

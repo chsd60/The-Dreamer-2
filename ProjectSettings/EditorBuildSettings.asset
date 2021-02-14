@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/6 - Villaggio Amboulban ritorno.unity
     guid: 57cd57766ce02904abb5af03471edc91
+  - enabled: 1
+    path: Assets/Scenes/Game/Titoli di coda.unity
+    guid: 8943c1ed1ec3aaf429425e4f0f028bce
   m_configObjects: {}
