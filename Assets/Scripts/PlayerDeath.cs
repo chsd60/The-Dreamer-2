@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerDeath : MonoBehaviour {
 
     // isDead probabilmente è inutile, ma l'ho messo per far da flag
+    // edit dopo 3 settimane: sì, è inutile
     public bool isDead = false;
     // Respawn = Numero di scena corrente
     public int currentScene;
