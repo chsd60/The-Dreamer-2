@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1137,18 +1137,37 @@ PrefabInstance:
     - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
         type: 3}
       propertyPath: voices.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
         type: 3}
       propertyPath: sentences.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
         type: 3}
+      propertyPath: voices.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
+    - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
+        type: 3}
+      propertyPath: voices.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
+    - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
+        type: 3}
       propertyPath: sentences.Array.data[0]
-      value: "Morfeo: !!! Perch\xE9 Ha smesso di attaccarmi quando ho preso l\u2019Acchiappasogni?
-        Tutto questo diventa sempre pi\xF9 strano"
+      value: 'Morfeo: ?!?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
+        type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: "Morfeo: Perch\xE9 ha smesso di attaccarmi quando ho preso l\u2019Acchiappasogni?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
+        type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "Morfeo: Tutto questo sta diventando sempre pi\xF9 strano..."
       objectReference: {fileID: 0}
     - target: {fileID: 9033203025573608450, guid: 809e74729be8c6b45a612002ec1c7be1,
         type: 3}
@@ -10511,7 +10530,7 @@ PrefabInstance:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
@@ -10522,12 +10541,12 @@ PrefabInstance:
         type: 3}
       propertyPath: voices.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 47667b37c2b82f147833c8b4247230a1, type: 3}
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: voices.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 1e122126175d86b428934a6622b1490d, type: 3}
+      objectReference: {fileID: 8300000, guid: a9b5ccb590136574180f0b79c36aa346, type: 3}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: voices.Array.data[3]
@@ -10541,18 +10560,17 @@ PrefabInstance:
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[0]
-      value: "Morfeo: Ma \xE8 morto! Che cos'\xE8 questo Acchiappasogni? Papa Gh\xE9d\xE9
-        mi deve parecchie spiegazioni."
+      value: "Morfeo: Ma... \xE8 morto!"
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[1]
-      value: 'Morfeo: Mi scusi signor ? '
+      value: "Morfeo: Che cos'\xE8 questo Acchiappasogni? "
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: 'Tenebris Silvam: Tenebris Silvam!'
+      value: "Morfeo: Papa Gh\xE9d\xE9 mi deve parecchie spiegazioni..."
       objectReference: {fileID: 0}
     - target: {fileID: 3921488095396052832, guid: c987604a59c60274389ede8e1a4cfc88,
         type: 3}

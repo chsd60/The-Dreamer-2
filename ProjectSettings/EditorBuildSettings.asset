@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/5 - Tenebris Silvam.unity
     guid: 784027d0fe4287d4384c8481eebd274c
   - enabled: 1
-    path: Assets/Scenes/Game/6 - Villaggio Amboulban ritorno.unity
-    guid: 57cd57766ce02904abb5af03471edc91
+    path: Assets/Scenes/Game/6b - Villaggio Amboulban Ritorno.unity
+    guid: 09abb2917d1beff40ab88d7203902751
   - enabled: 1
     path: Assets/Scenes/Game/Titoli di coda.unity
     guid: 8943c1ed1ec3aaf429425e4f0f028bce
